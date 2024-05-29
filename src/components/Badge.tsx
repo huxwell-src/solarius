@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 interface BadgeProps {
   label: string;
-  color?: "primary" | "secondary" | "danger" | "warning" | "success" | "text";
+  color?: "primary" | "secondary" | "danger" | "warning" | "success";
   soft?: boolean;
   close?: boolean;
 }
